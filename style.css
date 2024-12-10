@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#principal {
+    width: 1024px;
+    margin: 20px auto;
+}
+
+/* Estilização do cabeçalho */
+.header-topo {
+    height: 50px;
+    background: #148637;
+    position: relative;
+}
+
+.logotipo {
+    margin: 5px 0 0 135px;
+}
+
+.header-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.header-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px 0 0;
+    padding: 13px;
+}
+
+.header-nav a {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    transition: color .3s linear;
+}
+
+.header-nav a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.portifolio {
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.portifolio h1 {
+    font-size: 36px;
+    color: #000000;
+}
+
+.portifolio p {
+    font-size: 16px;
+    line-height: 2;
+    color: #000000;
+}
+
+.galeria {
+    color: #000000;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+
+.galeria-cartao {
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+.galeria-titulo {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sobre {
+    background-color: #000000;
+    padding: 100px;
+    color: white;
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.sobre h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.sobre p {
+    line-height: 1.s;
+    width: 70%;
+}
+
+#contato {
+    margin: 50px 0;
+}
+
+#contato address {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+} 
+
+.mapa {
+    width: 100%;
+    height: 450px;
+    margin-top: 15px;
+}
+
+.mapa iframe {
+    width: 100%;
+}
+
+.principal {
+    width: 1000px;
+    margin: 10px;
+}
+
+.rodape {
+    background: #148637;
+    padding: 25px;
+    font-size: 12px;
+    color: #000000;
+    letter-spacing: 5px;
+    text-align: center;
+}
